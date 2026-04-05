@@ -1,27 +1,7 @@
-import {
-  PortfolioNavbar,
-  ProductTeaserCard,
-  BankingScaleHero,
-  CaseStudiesCarousel,
-  IntegrationCarousel,
-  PricingSection,
-  FAQSection,
-  Footer,
-} from "@/components/landing";
+import SchoolJournal from "@/components/journal/SchoolJournal";
 
 const Index = () => {
-  return (
-    <>
-      <PortfolioNavbar />
-      <ProductTeaserCard />
-      <BankingScaleHero />
-      <CaseStudiesCarousel />
-      <IntegrationCarousel />
-      <PricingSection />
-      <FAQSection />
-      <Footer />
-    </>
-  );
+  return <SchoolJournal />;
 };
 
 export default Index;
